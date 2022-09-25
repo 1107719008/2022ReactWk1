@@ -1,0 +1,469 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+
+
+* {
+  margin : 0;
+  padding : 0;
+  
+}
+
+body{
+    background-color: #EEE8D8;
+}
+.ham_s{
+   position: absolute;
+   opacity: 0;
+}
+.navbg{
+  width:100%;
+  height: 200px;
+  background-color: #B4A582;
+  margin-top: 0;
+  position: absolute;
+  z-index: -3;
+  
+}
+.title{
+  font-size: 50px;
+  margin-top: 47px;
+  font-family: Segoe UI;
+  font-weight: bold;
+  color:white;
+  text-align: center;
+}
+
+.nav{
+  margin:auto 0;
+  list-style-type: none;
+
+  margin-top:30px;
+  display:flex;
+  flex-direction: row; 
+  align-items: center;
+  justify-content: center;
+  color:white;
+  
+}
+.navitem{
+margin-right: 60px;
+font-size: 20px;
+}
+.icon{
+  position: relative;
+  text-align: right;
+  margin-top: -35px;
+  margin-right: 70px;
+}
+.usericon{
+  padding-left:35px;
+  padding-right: 35px;
+}
+.title_s{
+  opacity: 0;
+  position: absolute;
+}
+.bigimg_s{
+  opacity: 0;
+  position: absolute;
+}
+.m_title{
+  opacity: 0;
+  position: absolute;
+}
+.m_bigimg{
+opacity: 0;
+position: absolute;
+}
+.bigimgpic{
+  margin-top:200px;
+float: right;
+}
+.today{
+  margin-top: 596px;
+  margin-left: 25px;
+  
+  
+}
+.titlepic{
+  margin-top: 458px;
+  margin-left: 165px;
+  position: absolute;
+  float: left;
+}
+
+
+.itemtable{
+  margin-top: 350px;
+  margin-left:-40px;
+}
+.itemtable_m{
+  display: none;
+}
+.itemtable_s{
+  display: none;
+}
+.rowone{
+  display:flex;
+  flex-direction: row;
+  justify-self: center;
+  margin-left: 235px;
+  top:1170px;
+}
+.itemrowone{
+  padding:25px;
+}
+.rowtextone{
+  margin-left: 245px;
+  display:flex;
+  flex-direction: row;
+  justify-self: center;
+
+}
+.textsty{
+margin-left: 100px;
+margin-right: 120px;
+font-size: 20px;
+line-height: 40px;
+}
+.number{
+ 
+  text-align: center;
+  font-family: Segoe UI;
+  font-size: 20px;
+  letter-spacing: 28px;
+ margin-top: 60px;
+ margin-bottom: 76px;
+}
+footer{
+  width:100%;
+  height: 488px;
+  background-color: #B4A582;
+  margin-bottom: 0;
+  position: absolute;
+  z-index: -3;
+  display: flex;
+}
+.nav2{
+ width:1181px;
+  list-style-type: none;
+  margin-top:30px;
+  align-items: center;
+  justify-content: center;
+  color:white;
+  
+}
+.navitem2{
+  padding:10px 163px;
+  font-family: Segoe UI;
+  font-size: 20px;
+}
+.title2{
+  font-size: 50px;
+  margin-top: 47px;
+  font-family: Segoe UI;
+  font-weight: bold;
+  color:white;
+  padding:10px 163px;
+}
+.service{
+  float: right;
+  margin-right: 0;
+  
+  margin-top: 35px
+  
+}
+.footicon{
+ margin-top: 161px;
+}
+.footdiv{
+  display: grid;
+  float: right;
+}
+
+
+
+
+@media screen and (max-width:768px){
+
+
+.title{
+  font-size: 30px;
+  margin-top: 45px;
+  
+}
+.nav{
+  display:flex;
+  flex-direction: row; 
+  align-items: unset;
+  float:left;
+  justify-content: first baseline;
+  
+}
+.navitem{
+  margin-right: 10px;
+  margin-left: 25px;
+}
+.icon{
+  position: relative;
+  text-align: right;
+  margin-top: 30px;
+  margin-right: 24px;
+}
+.usericon{
+  padding-left:30px;
+  padding-right: 30px;
+}
+.m_title{
+  opacity: 1;
+ margin-top:250px;
+ margin-bottom: 40px;
+ margin-left: 50px;
+ position: initial;
+}
+.m_bigimg{
+opacity: 1;
+position: initial;
+}
+
+.bigimgpic{
+opacity: 0;
+position: absolute;
+}
+.today{
+  opacity: 0;
+  position: absolute;
+}
+.titlepic{
+  opacity: 0;
+ 
+}
+.itemtable{
+  display: none;
+}
+.itemtable_m{
+  display: initial;
+
+}
+.rowone{
+  display:flex;
+  flex-direction: row;
+  justify-self: center;
+  margin-left: 20px;
+  top:1124px;
+}
+.itemrowone{
+  padding:25px;
+}
+.rowtextone{
+  margin-left: 45px;
+  display:flex;
+  flex-direction: row;
+  justify-self: center;
+
+}
+.textsty{
+margin-left: 42px;
+margin-right: 75px;
+font-size: 15px;
+line-height: 30px;
+}
+.number{
+  font-size: 15px;
+}
+
+footer{
+  height:400px;
+}
+.nav2{
+  width:1181px;
+   list-style-type: none;
+   margin-top:30px;
+   align-items: center;
+   justify-content: center;
+   color:white;
+   
+}
+.navitem2{
+   padding:10px 80px;
+   font-family: Segoe UI;
+   font-size: 15px;
+}
+.title2{
+   font-size: 30px;
+   margin-top: 55px;
+   margin-bottom: 15px;
+   font-family: Segoe UI;
+   font-weight: bold;
+   color:white;
+   padding:10px 80px;
+}
+
+.service{
+   float: right;
+   margin-right: 0;
+   
+   margin-top: 10px;
+   width: 260px;
+   
+   
+}
+.footicon{
+   width: 230px;
+   margin-bottom: 0;
+  margin-top: 190px;
+}
+.footdiv{
+   display: grid;
+   float: right;
+}
+}
+
+
+
+
+@media screen and (max-width:320px){
+
+.navbg{
+  width:320px;
+  height: 90px;
+  background-color: #B4A582;
+  margin-top: 0;
+  position: absolute;
+  z-index: -3;
+}  
+.m_title{
+  opacity: 0;
+  position: absolute;
+}
+.m_bigimg{
+opacity: 0;
+position: absolute;
+z-index: -10;
+}  
+.itemtable_m{
+  display:none;
+}
+.nav{
+  display: none;
+}
+.gooo{
+  display: none;
+}
+.usericon{
+  display: none;
+}
+.searchicon{
+  display:none;
+}
+.ham_s{
+  opacity: 1;
+  z-index: 20;
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  margin-top: -102px;
+  margin-left: 15px;
+}
+.ics1{
+  margin-right: 140px;
+}
+.ics2{
+  margin-right: 15px;
+}
+.ics3{
+  margin-right: 15px;
+}
+
+.title{
+  font-size: 20px;
+  margin-top: 58px;
+  font-family: Segoe UI;
+  font-weight: bold;
+  color:white;
+  text-align: center;
+}
+
+.title_s{
+  opacity: 1;
+ position: initial;
+ margin-left: 15px;
+ margin-top: 138px;
+}
+.bigimg_s{
+  opacity: 1;
+  position: initial;
+
+}
+.itemtable_s{
+  display: initial;
+  top: 568px;
+}
+.itemrowone{
+  padding:20px;
+}
+.textsty{
+margin-left: 12px;
+margin-right: 58px;
+font-size: 15px;
+line-height: 30px;
+}
+.number{
+  font-size: 16px;
+}
+footer{
+  height: 560px;
+  display: grid;
+}
+.nav2{
+  margin-top: 5px;
+  
+}
+.navitem2{
+  padding:10px 29px;
+  font-family: Segoe UI;
+  font-size: 15px;
+}
+.title2{
+  font-size: 20px;
+  margin-top: 30px;
+
+  padding:10px 29px;
+}
+
+.service{
+  float: left;
+  margin-top: 8px;
+  width: 300px;
+  margin-left: 29px;
+}
+.footicon{
+  width: 230px;
+  margin-bottom: 0;
+ margin-top:0;
+ margin-left: 29px;
+}
+
+
+
+
+
+
+
+
+
+}
